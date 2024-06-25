@@ -6,19 +6,19 @@ on:
       IMAGE_NAME:
         description: '原镜像名称:版本'
         required: true
-        default: 'mysql/mysql-server'
+        default: 'adoptopenjdk/openjdk8:x86_64-alpine-jdk8u412-b08'
       NEW_NAME:
         description: '同步后镜像名称:版本'
         required: true
-        default: 'mysql-server'
+        default: 'openjdk8:x86_64-alpine-jdk8u412-b08'
       TARGET_REGISTRY:
         description: '仓库地址'
         required: true
-        default: 'registry.cn-chengdu.aliyuncs.com'
+        default: 'registry.cn-hangzhou.aliyuncs.com'
       TARGET_REPOSITORY:
         description: '空间名称'
         required: true
-        default: 'aopkcn'
+        default: 'll-zd'
       ARCH:
         description: '系统架构'
         required: true
